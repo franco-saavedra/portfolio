@@ -22,6 +22,7 @@ Callback de regularización L2: Un callback personalizado ajusta la regularizaci
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 English:
+
 This code performs training and evaluation of a prediction model for cryptocurrency prices using deep neural networks. Below are the main functions and components used:
 
 Database Connection: It uses psycopg2 to connect to a PostgreSQL database, retrieving historical cryptocurrency price data, sorted by date. The data is stored in a DataFrame for further processing.
